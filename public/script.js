@@ -12,7 +12,7 @@ function renderMessage(receivedMessageObject){
   if(receivedMessageObject.tabuleiroValue=="x"){
     $(`#${receivedMessageObject.id}`).css("background-color", "red");
       //event.target.style.backgroundColor = "red";
-
+    alert("You lose");
       
   }else{
     $(`#${receivedMessageObject.id}`).css("border", "thick solid #101285");
